@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+$maincolor:red;
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: black;;
+  color:rgb(226, 204, 163);
+
+}
+
+
+
+.form-control{
+
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.bdrd{
+
+  border: 1px solid rgb(49, 0, 27);
+
+  
+}
+
+
+.trendingmovies,.trindingtvshow, .trindingperson img{
+  cursor: pointer;
+}
+
+
+
+.detailinfo .moviename{
+  
+ 
+
+  padding: 10px;
+ color: #950101;
+  cursor: pointer;
+}
+.detailverview{
+  color: #e90303;
+  font-size: 2rem;
+}
+.productionyear{
+  color: #a01e1e;
+}
+
+
+
+.logout{
+  cursor: pointer;
+}
+.trindingtvshow img{
+  width: 400px;
+  transition: all 2s ease-in-out;
+  display: block;
+  box-shadow: 0 8px 16px rgb(255, 38, 0);
+}
+.trendingmovies img{
+  width: 400px;
+  transition: all 2s ease-in-out;
+  display: block;
+  box-shadow: 0 8px 16px rgb(255, 38, 0);
+}
+.trendingmovies img:hover {
+  transform: scale(1.5);
+}
+.trindingperson img:hover{
+  transform: scale(1.5);
+}
+.trindingperson img{
+  width: 400px;
+  transition: all 2s ease-in-out;
+  display: block;
+  box-shadow: 0 8px 16px rgb(255, 38, 0);
+}
+.pepoleimg img {
+  width: 400px;
+  transition: all 2s ease-in-out;
+  display: block;
+  box-shadow: 0 8px 16px rgb(255, 38, 0);
+}
+.pepoleimg img:hover{
+  transform: scale(1.5);
+}
+.trindingtvshow img:hover{
+  transform: scale(1.5);
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 45vh;
+  margin-top: 6px;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;            /* Footer height */
+}
+.footer{
+  background-color: #490000;
+  overflow: hidden;
+}
+.imgcol img{
+  width: 400px;
+  transition: all 2s ease-in-out;
+  display: block;
+  box-shadow: 0 8px 16px rgb(255, 38, 0);
+}
+.imgcol img:hover{
+  transprm: scale(1.5);
+}
+.pepolename{
+  color: #e90303;
+}
+.pepolebirthday{
+color: #a01e1e;
+}
+.cvperson{
+  color: #e90303;
+  font-size: 2rem;
+}
+
+.tvshowoverview{
+  font-size: 2rem;
+  color: #7a0404;
+}
+
+
+.tvshowimgdetail img{
+  width: 400px;
+  transition: all 2s ease-in-out;
+  display: block;
+  box-shadow: 0 8px 16px rgb(255, 38, 0);
+}
+
+
+.tvshowimgdetail img:hover{
+  transform: scale(1.5);
+}
